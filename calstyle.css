@@ -1,0 +1,145 @@
+
+
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+body{
+	width: 500px;
+	margin: 0 auto;
+}
+
+ol{
+	display: inline;
+}
+
+.wrap{
+	padding: 20px;
+	width: 320px;
+	height: 300px;
+	background-color: #FCFF9C;
+}
+
+#cal-container{
+margin: 0 auto;
+width: 280px;
+height: 288px;	
+border-radius: 10px;
+background-color: #3AB2FC;
+overflow: hidden;
+box-shadow: 0px 1px 1px #AEAFB0;
+}
+
+.month{
+/*	margin-top: 0;*/
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+	/*background: linear-gradient (rgba(100,100,100,0.1),rgba(200,200,200,0.8));*/
+}
+
+.month h1{
+	font-size: 18px;
+	line-height: 12px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px #A3A3A3;  
+}
+
+.nextR{
+	float: right;
+	width: 39px;
+	height: 40px;
+	border-right: 1px solid #D2D3D4;
+	
+}
+
+.nextL{
+	float: left;
+	width: 39px;
+	height: 40px;
+	border-left: 1px solid #D2D3D4;
+}
+
+.days{
+		
+}
+
+.day ol{
+	display: inline;
+}
+
+
+.days ol li{
+	float:left;
+	list-style-type: none;
+	width: 40px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 500;
+	color: #858585;
+	background-color: #E1E4E6;
+	border-bottom: 1px solid #D2D3D4;
+}
+
+.day{
+	width: 280px;
+}
+
+.day ol{
+	display: inline;
+}
+
+.day ol li{
+	list-style-position: inside;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 39px;
+   width: 39px;
+   height: 40px;
+   border-right: 1px solid #D2D3D4;
+   border-bottom: 1px solid #D2D3D4;
+   float: left; 
+   color: #6E6E6E;
+   background-color: #FAFAFA; 
+   text-align: center;
+    }
+
+
+.day ol li:nth-of-type(7n+0){
+	border-right: 1px solid #EDF0F2;
+}
+
+.day ol li:nth-child(-n+4){
+	color: #BDBDBD;
+}
+
+.clear { 
+   clear: both; }
+
+-------------------------------------------------------
+ .clearfix:before,
+        .clearfix:after {
+          content: ".";
+          display: block;
+          height: 0;
+          overflow: hidden;
+        }
+
+        .clearfix:after {
+            clear: both;
+        }
+
+        .clearfix {
+            zoom: 1; /* IE < 8 */
+        }
+
+
+ .group:after {
+  content: "";
+  display: table;
+  clear: both;
+}       
+
